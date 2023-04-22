@@ -24,6 +24,8 @@ class PlayState extends FlxState {
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
+		addProject('identity', 'fnf vs impostor v4\nwith lyrics\nidentity crisis\n\n\nQ2 2023');
+
 		for (i in 0...projects.length) {
 
 			var sizeDivider:Int = 4;
